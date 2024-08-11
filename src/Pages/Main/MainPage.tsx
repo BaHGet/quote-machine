@@ -1,4 +1,5 @@
 import './main.css'
+import x from '../../assets/X.png'
 import { useQuoteContext, useUpdataQuoteContext } from "../../hooks/useQuoteContext"
 import { Quote } from "../../Types/Quote.type"
 import { QuoteTextComponent } from "../../Components/Quote/Quote"
@@ -29,7 +30,7 @@ export const Main = () => {
             <div className="button-container">
                 <Button id="tweet-quote" onClick={handelTweet}>
                     <a target='_self'>
-                        <img id='btn-img' src="../../../assets/X.png" alt="" />
+                        <img id='btn-img' src={x} alt="" />
                     </a>
                 </Button>
                 <Button  onClick={handelQuoteChange} id="new-quote">New Quote</Button>
