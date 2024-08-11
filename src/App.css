@@ -6,14 +6,14 @@ body{
 }
 .bg{
     position: fixed;
-    top: -470px;
-    left: -400px;
+    top: -150%;
+    left: -90%;
     z-index: -1;
     background: rgb(199,27,221);
     background: linear-gradient(159deg, #9BAFD9 29%, rgba(103,54,195,1) 46%, #103783 64%);background-repeat: no-repeat;
     background-size: contain;
-    width: 200vw;
-    height: 200vh;
+    width: 400vh;
+    height: 400vh;
     overflow: hidden;
     animation: rotate-animation 70s linear  infinite  ;
 }
