@@ -7,5 +7,6 @@ export default defineConfig({
   build: {
     outDir: './build',
     emptyOutDir: true, 
-  }
+  },
+  base: 'https://BaHGet.github.io/quote-machine/'
 })
