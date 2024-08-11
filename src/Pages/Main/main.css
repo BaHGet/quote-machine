@@ -1,0 +1,38 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    margin-top: 30vh;
+    animation: fadeBackground 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeBackground {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.glass-effect{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(41px);
+    -webkit-backdrop-filter: blur(11px);
+    border: 1px solid transparent;
+}
+
+.shadow{
+    box-shadow: rgba(136, 135, 135, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.button-container{
+    position: relative;
+    width: 100%;
+    padding:0px 10px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bg{
+    position: fixed;
+    top: -470px;
+    left: -400px;
+    z-index: -1;
+    background: rgb(199,27,221);
+    background: linear-gradient(159deg, #9BAFD9 29%, rgba(103,54,195,1) 46%, #103783 64%);background-repeat: no-repeat;
+    background-size: contain;
+    width: 200vw;
+    height: 200vh;
+    overflow: hidden;
+    animation: rotate-animation 70s linear  infinite  ;
+}
+
+@keyframes rotate-animation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
