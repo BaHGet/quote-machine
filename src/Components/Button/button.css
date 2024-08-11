@@ -1,17 +1,19 @@
 .button{
     background: linear-gradient(149deg, #471d83 11%, #0c3f44 100%);
     color: white;
+    font-family: "Roboto", sans-serif;
     padding: 10px;
     border: none;
     border-radius: 10px;
-    transition: 0.5s;
+    transition: all 0.5s;
 }
 
 .button:hover{
     cursor: pointer;
+    background: linear-gradient(149deg, #471d83 5%, #0c3f44 75%);
     box-shadow: #bdbdbd 0px 0px 20px 2px;
     scale: 1.1;
-    transition: 0.5s;
+    transition: all 0.5s;
 }
 
 #btn-img{
